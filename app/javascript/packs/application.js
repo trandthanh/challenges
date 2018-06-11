@@ -1,6 +1,13 @@
 import "bootstrap";
 
-import { removeTransition } from '../challenges/drumkit';
-import { playSound } from '../challenges/drumkit';
+import { removeTransition, playSound } from '../challenges/drumkit';
+
+
+if (document.querySelector(`audio[data-key="${e.keyCode}"]`)){
+  removeTransition();
+  playSound();
+}
+
+
 
 
