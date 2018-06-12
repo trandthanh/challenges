@@ -1,13 +1,18 @@
 import "bootstrap";
 
+// challenges
+
+// drumkit
 import { removeTransition, playSound } from '../challenges/drumkit';
+import { setDate } from '../challenges/clock';
 
 
-if (document.querySelector(`audio[data-key="${e.keyCode}"]`)){
-  removeTransition();
-  playSound();
-}
+// import if
 
+// drumkit
+// ?
+
+// clock
 
 
 

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root to: 'pages#home'
+  root 'pages#home'
 
-  get 'challenges/drumkit'
+  get '/drumkit', to: 'challenges#drumkit'
+  get '/clock', to: 'challenges#clock'
 end
