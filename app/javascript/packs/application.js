@@ -1,18 +1,26 @@
 import "bootstrap";
 
-// challenges
+// CHALLENGES
 
 // drumkit
 import { removeTransition, playSound } from '../challenges/drumkit';
 import { setDate } from '../challenges/clock';
 
+// cssvarandjs
+import { handleUpdate } from '../challenges/cssvarandjs';
 
-// import if
+
+// IMPORT IF
 
 // drumkit
 // ?
 
 // clock
+
+if (document.querySelector('.wrapper-clock')){
+  setDate();
+}
+// cssvarandjs
 
 
 

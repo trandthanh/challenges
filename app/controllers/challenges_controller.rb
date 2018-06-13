@@ -5,4 +5,7 @@ class ChallengesController < ApplicationController
 
   def clock
   end
+
+  def cssvarandjs
+  end
 end
